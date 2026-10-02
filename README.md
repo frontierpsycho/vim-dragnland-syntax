@@ -20,3 +20,14 @@ colorscheme catppuccin
 hi Normal guibg=NONE ctermbg=NONE
 
 ```
+
+## Installing
+
+This should be installable with vim's built-in package manager. Just run something like
+
+```
+mkdir -p ~/.vim/pack/vendor/start
+git clone --depth 1 https://github.com/frontierpsycho/vim-dragnland-syntax.git ~/.vim/pack/vendor/start/vim-dragnlang-syntax
+```
+
+Replace `vendor/` with whatever you prefer.
